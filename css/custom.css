@@ -10,6 +10,12 @@
     position: relative;
     margin: 0 0 -19px 0;
 }
+.reveal section img.eventory-logo {
+    width: 70px;
+    display: inline-block;
+    position: relative;
+    margin: 0 0 -19px 0;
+}
 .reveal section img.skull {
     width: 70px;
     margin: 0 0 -19px 0;
@@ -39,12 +45,32 @@ p.author-signature {
     text-align: right;
     font-style: italic;
 }
-
 div.overlay {
     padding: 10px;
     border-radius: 20px;
     background: black;
     background: rgba(0,0,0,0.3);
+}
+div.bio {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 50px 0px;
+}
+div.bio>img {
+    margin: 0px;
+    flex: 30%;
+}
+div.bio>div {
+    margin: 0px 20px;
+    flex: 70%;
+}
+.reveal section img.plain {
+    border-style: none;
+    border-width: 0px;
+    background: rgba(255,255,255,0);
+    top: 5px;
+    position: relative;
+    margin: 0px 5px;
 }
 div.diagram, div.aside {
     display: flex;
@@ -77,4 +103,39 @@ div.diagram ul,div.diagram p {
 }
 .smaller {
     font-size: 32px;
+}
+div.rights {
+    font-size: small;
+}
+.align-left {
+    text-align: left;
+}
+.align-right {
+    text-align: right;
+}
+.underline {
+    text-decoration: underline;
+}
+.reveal section div.tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+.reveal section div.tiles > div > img {
+    border-style: none;
+    border-width: 0px;
+    background: rgba(255,255,255,0);
+    height: 100px;
+    margin: 5px;
+}
+.reveal section div.tiles > div > p {
+    font-size: large;
+    margin: 0px 0px 18px 0px;
+}
+h3.fancy {
+    margin-top: 35px;
 }
