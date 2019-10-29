@@ -88,12 +88,12 @@ div.diagram>div {
     height: 400px;
     padding: 10px 5px 5px 5px;
     margin: 0px 10px 0px 10px;
-    border: grey solid 5px;
-    background-color: whitesmoke;
-    color: black;
+    border: deeppink solid 5px;
+    /*background-color: whitesmoke;*/
+    /*color: black;*/
 }
 div.diagram h1,div.diagram h2,div.diagram h3,div.diagram h4,div.diagram h5 {
-    color: darkblue;
+    /*color: darkblue;*/
 }
 div.diagram ul,div.diagram p {
     font-size: 30px;
